@@ -1,7 +1,7 @@
 body {
     background: #f4f4f4;
     color: #757575;
-    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 2px;
     padding-bottom: 60px;
 }
@@ -36,26 +36,46 @@ h1 {
 h2 {
     font-size: 1.3em;
     background: #fcfcfc;
+    font-weight:bolder;
+    color: #01020d;
     padding: 10px;
 }
 
 h3 {
     font-size: 1.4em;
     text-transform: uppercase;
-    color: #000;
+    color: #0d33ef;
     margin-top: 0;
 }
 
 h4 {
     margin: 15px 0 0;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #f4390a;
+    font-weight:bolder;
+    font-style: italic;
+}
+p{
+    font-family:Montserrat;
+    font-size: 1.4rem;
+    font-weight:bolder;
+    font-style: italic;
+    color: #747476; 
 }
 
-p,
-a {
-    line-height: 1.7em;
-    font-weight: lighter;
-    letter-spacing: 1px;
-    font-size: 16px;
+dt {
+    font-size: 1.3rem;
+    font-weight:lighter;
+    color: #131414;
+}
+
+dl,
+dd {
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-style: italic;
+    color: #0aa870;
 }
 
 li {
@@ -71,6 +91,7 @@ li {
     color: #3e3f40;
     font-size: 2.2em;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .social {
